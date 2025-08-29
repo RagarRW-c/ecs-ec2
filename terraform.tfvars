@@ -1,0 +1,7 @@
+project_name     = "korona-eg-ecs-ec2"
+region           = "eu-central-1"
+instance_type    = "t3.micro"
+desired_capacity = 2
+min_size         = 1
+max_size         = 3
+key_name         = "my-key-pair"
